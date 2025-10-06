@@ -130,3 +130,67 @@ else{
 }
 
 // : - else if 
+
+//Condição Ternário
+
+let valor2 =100;
+
+let resultado = valor2 == 100 ? "Certo":"Errado";
+console.log(resultado)
+
+let produto ="notebook";
+const desconto =true;
+
+const preco = produto === "notebook" ? desconto ? 100 :200 : produto === "mouse" ? 30 : 100;
+console.log(preco)
+
+let valor3= 51
+
+let resultado1 = valor3 > 50 ? "Maior":valor3 < 50?"menor":"igual";
+console.log(resultado1)
+
+
+
+
+//SWITCH
+
+let time ="Corinthians";
+
+switch(time){
+    case "Corinthians":
+        console.log("Melhor Time")
+        break;
+    case "SaoPaulo":
+        console.log("Não considero melhor time")
+        break;
+    case "Palmeiras":
+        console.log("Não possui Mundial")
+        break;
+    default:
+        console.log("Nunhuma das opcoes")
+}
+
+
+
+//ESTRUTURA DE REPETIÇÃO
+
+//FOR
+
+ for(let i=7;i<=10;i++){
+    console.log("o valor de i é:",i)
+ }
+
+ //WHILE
+
+ let c=0;
+ while(c <10){
+    console.log("o valor de c:" ,c)
+    c++;
+ }
+
+ let z= 0;
+
+ do{
+    console.log("do while", z)
+    z++;
+ }while(z <10)
